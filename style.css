@@ -1,0 +1,86 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 25px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+  backdrop-filter: blur(8px);
+}
+
+header .saudacao {
+  font-size: 1.1rem;
+  color: #f1f1f1;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.descricao {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #dbe9ff;
+}
+
+.info p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #f8f9ff;
+}
+
+.downloads {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #2a5298;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #dce9ff;
+  transform: translateY(-3px);
+}
+
+.btn i {
+  width: 20px;
+  height: 20px;
+}
